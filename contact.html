@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .banner {
+        height: 350px;
+        background: radial-gradient(
+            rgba(33, 88, 99, 0.6),
+            rgba(255, 33, 255, 0.4)
+          ),
+          url(img.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="banner">
+      <h1>Welcome to Innovation Hub</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac placerat
+        purus. Quisque vel odio auctor, consectetur lectus id, pellentesque mi.
+        Sed nec turpis vel nunc imperdiet dictum.
+      </p>
+    </div>
+    <h1>contact us</h1>
+    <p>we will like to hear from you</p>
+    <div>
+      <form action="/submit" method="post">
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+    <div>
+      <div>
+        <i class="fa-solid fa-map fa-2x fa-spin"></i>
+        <label for="">address</label>
+        <span>innovation hub wuse 2</span>
+      </div>
+      <div>
+        <i class="fa-solid fa-envelope"></i>
+        <label for="">Email</label>
+        <a href="mailto:innovationhub@gmail.com" target="_blank"
+          >innovationhub@gmail.com</a
+        >
+      </div>
+      <div>
+        <i class="fa-solid fa-phone"></i>
+        <label for="">phone number</label>
+        <a href="tel:090888777777" target="_blank" rel="noopener noreferrer"
+          >09099999999</a
+        >
+      </div>
+    </div>
+
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3939.8292297161624!2d7.468859175019486!3d9.07931699098403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0b5f4877be27%3A0xf2bc8d55b1d4ca51!2sSeedbuilders%20Innovation%20Hub!5e0!3m2!1sen!2sng!4v1731510668927!5m2!1sen!2sng"
+      width="600"
+      height="450"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+  </body>
+</html>
